@@ -13,13 +13,13 @@ function Navbar() {
                 <div className="col-sm-5">
                     <nav className="navbar" >
                         <ul className="navbar-nav">
-                            <li className="nav-item"><a className="nav-link"  >Home</a></li>
+                            <li className="nav-item"><a className="nav-link" >Home</a></li>
                         </ul>
                         <ul className="navbar-nav">
                             <li className="nav-item"><a className="nav-link"  >About Us</a></li>
                         </ul>
                         <ul className="navbar-nav">
-                            <li className="nav-item"><a className="nav-link"  >Quiz</a></li>
+                            <Link to="/Quiz" className="nav-link">Quiz</Link>
                         </ul>
                         <ul className="navbar-nav">
                             <Link to="/Dashboard" className="nav-link">Dashboard</Link>
